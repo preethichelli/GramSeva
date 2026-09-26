@@ -1,0 +1,39 @@
+name: sahakar_seva_app
+description: Cooperative gig services platform - customer + worker app (SIH26089)
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # Backend calls
+  http: ^1.2.2
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+
+  # Location
+  geolocator: ^13.0.1
+
+  # State handling - Provider is simplest for a hackathon timeline
+  provider: ^6.1.2
+
+  # Local formatting
+  intl: ^0.19.0
+
+  file_picker: ^8.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_plugin_android_lifecycle: 2.0.24
+
+flutter:
+  uses-material-design: true
